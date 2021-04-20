@@ -1,0 +1,100 @@
+@import '../../App';
+.testimonials{
+	background-color: #fbfbfb;
+	padding: 60px 0;
+	position:relative;
+	.about-content{
+		margin-bottom: 60px;
+	}
+	.testimonials-slider{
+		margin-bottom: 30px;
+		.testimonials-slide{
+			display: flex;
+			justify-content: space-between;
+			background-color:#ffffff;
+			padding:50px 60px;
+			margin: 0 10px;
+			img{
+				max-width: 90px;
+				max-height: 90px;
+				object-fit: cover;
+				margin-right: 20px;
+			}
+			.testimonials-header{
+				display: flex;
+				justify-content: space-between;
+				h3{
+					font-size: 25px;
+					line-height: 25px;
+					color: #222222;
+					font-weight: 600;
+					font-family: $poppins-font;
+					text-transform: uppercase;
+				}
+				span{
+					font-size: 18px;
+					line-height: 25px;
+					color: #a6a6a6;
+					font-weight: 400;
+					font-family: $poppins-font;
+				}
+				.rating{
+					svg{
+						color: #fec300;
+						margin-left: 5px;
+					}
+				}
+			}
+			.testimonials-footer{
+				span{
+					font-size: 16px;
+					line-height: 30px;
+					color: #222222;
+					font-weight: 400;
+					font-family: $poppins-font;
+				}
+			}
+			
+		}
+	}
+	.slick-list{
+		margin:0 -10px;
+	}
+	.slick-prev{
+		top:115%;
+		left: 30px;
+		color: #000000;
+	}
+	.slick-next{
+		top:115%;
+		left: 50px;
+		color: #000000;
+		z-index: 999;
+	}
+	.slick-disabled{
+		opacity: .4;
+	}
+	.controls{
+		.hero-slider{
+			background-color:#ffffff;
+			position:unset;
+			width: 100%;
+			.slider-text{
+				color: #000000;
+			}
+			.controller{
+				margin-left: 100px;
+				padding: 0 0 0 50px;
+			}
+			button{
+				background-color:$icon-color;
+				color: #ffffff;
+				svg{
+					color: #ffffff;
+				}
+			}
+		}
+	}
+	
+	
+}

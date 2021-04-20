@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="39" viewBox="0 0 40 39">
-  <g id="_01" data-name="01" transform="translate(0 0.001)">
-    <g id="base" transform="translate(0 -0.001)" fill="#cc9b55" stroke="#fff" stroke-linejoin="round" stroke-width="1">
-      <rect width="40" height="39" stroke="none"/>
-      <rect x="0.5" y="0.5" width="39" height="38" fill="none"/>
-    </g>
-    <path id="facebook_1_" data-name="facebook (1)" d="M12.3,2.386H13.67V.1A18.369,18.369,0,0,0,11.68,0,3.093,3.093,0,0,0,8.361,3.376V5.388H6.187V7.941H8.361v6.426h2.665V7.942h2.086l.331-2.554H11.025V3.629c0-.738.208-1.243,1.279-1.243Z" transform="translate(10.072 12.977)" fill="#fff"/>
-  </g>
-</svg>
