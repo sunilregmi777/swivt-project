@@ -1,12 +1,70 @@
-$primary-color: #c6538c;
-$text-color: #ccc;
+$primary-color: #1C1E25;
+$text-color: #cccccc;
 $button-color: #efefef;
 $border-dark: rgba($primary-color, 0.88);
-
-
+$rajdhani-font: 'Rajdhani', sans-serif;
+$white-text:#ffffff;
+$barlow-font:'Barlow Condensed', sans-serif;
+$icon-color:#cc9b55;
+$poppins-font:'Poppins', sans-serif;
+$black-text:#1b1e24;
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: $text-color;
+  // border:1px solid red;
+}
+a:hover{
+	text-decoration: none;
+}
+body{
+	font-family: $rajdhani-font;
+}
+.button-primary{
+	font-family: $rajdhani-font;
+	font-size: 16px;
+	letter-spacing: 6.4px;
+	padding:30px 0;
+	color: #1b1d24;
+	font-weight: 600;
+	text-transform: uppercase;
+	border:none;
+	&:hover svg{
+		transform: translatex(5px);
+	}
+	svg{
+		margin-right: 20px;
+		transition: all 0.3s ease;
+	}
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+h3.main-title{
+	font-size: 16px;
+	letter-spacing: 7px;
+	line-height: 30px;
+	color: $icon-color;
+	font-weight: 600;
+	font-family: $poppins-font;
+	text-transform: uppercase;
+	margin: 0;
+}
+h1.title{
+	line-height: 67px;
+	color: $black-text;
+	font-weight: 500;
+	font-family: $poppins-font;
+	font-size: 50px;
+	margin: 0;
+}
+p.desc{
+	font-size: 17px;
+	line-height: 32px;
+	color: #7a797e;
+	font-weight: 500;
+	font-family: $poppins-font;
+	margin:30px 0 0 0;
+	padding-bottom:30px
 }

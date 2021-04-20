@@ -1,0 +1,42 @@
+@import '../../App';
+
+header{
+	.navbar{
+		padding:0;
+
+		.icon-menu-wrapper{
+			background-color: $primary-color;
+			a{
+				margin-right:50px;
+				img{
+					padding:32px 0;
+				}
+			}
+			.menu-icon{
+				font-family: $rajdhani-font;
+				font-size: 12px;
+				text-transform: uppercase;
+				font-weight: 600;
+				color: $white-text;
+				letter-spacing: 6.4;
+				img{
+					margin: 0 20px;
+				}
+			}
+
+		}
+		.icon-menu{
+			a{
+				margin-right:50px;
+				img{
+					transition: all 0.3s ease;
+					&:hover{
+						transform: translatey(-5px);
+						opacity: .8;
+					}
+				}
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,86 @@
+@import '../../App';
+.whatwedo-section{
+	padding: 80px 0;
+	background-color:#fbfbfb;
+	z-index: 999;
+	position:relative;
+	&:after{
+		content: '\A';
+	    position: absolute;
+	    background: #ffffff;
+	    top: 20px; 
+	    bottom: 0;
+	    right: 0; 
+	    width: 75%;
+	    z-index:-1;
+	}
+	.text-right{
+		text-align: right;
+	}
+	.our-works{
+		margin-top:70px;
+		.card-deck{
+			&:last-of-type{
+				margin-top: 60px;
+			}
+			.card{
+				flex-direction: row;
+				border: none;
+				border-radius: none;
+				margin-right:25px;
+				img{
+					max-width: 325px;
+					// max-height: 280px;
+					object-fit: cover;
+					margin-right: 5%;
+				}
+				.card-body{
+					padding: 0;
+					display: flex;
+					flex-direction: column;
+					justify-content:space-between;
+					.card-title{
+						font-family: $poppins-font;
+						font-size: 28px;
+						line-height: 63px;
+						color: $black-text;
+						font-weight: 500;
+						margin-bottom: 0;
+					}
+					.card-text{
+						font-size: 16px;
+						line-height: 22px;
+						color: #7a797e;
+						font-weight: 300;
+						font-family: $poppins-font;
+					}
+					.card-options{
+						display: flex;
+						justify-content: space-between;
+						align-items:center;
+						margin-bottom: 25px;
+						.empty-box{
+							width: 56px;
+							height: 57px;
+							background-color: $icon-color;
+						}
+						.options{
+							svg{
+								margin-left:15px;
+								color: #e6e6e6;
+								font-size: 20px;
+							}
+						}
+					}	
+				}
+				
+			}
+		}
+	}
+	button{
+		margin-top: 100px;
+		background-color:$icon-color;
+		padding:40px 150px;
+		color:$white-text;
+	}
+}
